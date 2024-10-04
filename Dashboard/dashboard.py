@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-csv_file_path = 'all_data.csv' 
+csv_file_path = 'Dashboard/all_data.csv' 
 data = pd.read_csv(csv_file_path)
 
 
