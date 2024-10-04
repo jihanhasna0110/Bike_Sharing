@@ -21,13 +21,16 @@ This project contains a dashboard built with **Streamlit**, **Pandas**, **Matplo
 conda create --name bike-sharing-env python=3.9
 conda activate bike-sharing-env
 pip install -r requirements.txt
-
+```
 ### Shell/Terminal
+```bash
 mkdir proyek_bike_sharing
 cd proyek_bike_sharing
 pipenv install
 pipenv shell
 pip install -r requirements.txt
-
+```
 ### Run steamlit app
+```bash
 streamlit run dashboard.py
+```
