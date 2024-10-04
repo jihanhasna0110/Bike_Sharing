@@ -17,7 +17,7 @@ start_date = st.sidebar.date_input('Mulai', data['dteday'].min().date())
 end_date = st.sidebar.date_input('Selesai', data['dteday'].max().date())
 
 # Add image above date range
-image_path = 'sepeda.jpeg' 
+image_path = 'Dashboard/sepeda.jpeg' 
 st.sidebar.image(image_path, caption='Bike Sharing', use_column_width=True)
 
 # Filter data based on the selected date range
