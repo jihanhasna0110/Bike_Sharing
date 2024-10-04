@@ -17,6 +17,7 @@ This project contains a dashboard built with **Streamlit**, **Pandas**, **Matplo
 ## 🛠️ Setup Environment
 
 ### Anaconda Environment Setup
+```bash
 conda create --name bike-sharing-env python=3.9
 conda activate bike-sharing-env
 pip install -r requirements.txt
